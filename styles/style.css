@@ -1,3 +1,48 @@
+:root{
+    --dark-blue: #142951;
+    --blue: #244A80;
+    --dark-green: #377A98;
+    --green: #4EADAF;
+}
+
 html{
     font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    display: flex;
+    font-size: 2.4rem;
+    padding-right: 20rem;
+    padding-left: 20rem;
+    justify-content: space-between;
+}
+
+h1 span{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+h1 span a{
+    font-size: 1.8rem;
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+.big-title{
+    font-size: 4.8rem;
+    font-weight: bold;
+}
+
+.title-description-container{
+    display: flex;
 }
