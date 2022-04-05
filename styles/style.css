@@ -1,8 +1,7 @@
 :root{
     --dark-blue: #142951;
     --blue: #244A80;
-    --dark-green: #377A98;
-    --green: #4EADAF;
+    --dark-green: #37986b;
 }
 
 html{
@@ -10,27 +9,31 @@ html{
 }
 
 body{
+    margin: 0;
     font-size: 1.6rem;
+    color: white;
     font-family: 'Montserrat', sans-serif;
 }
 
-h1{
+header{
     display: flex;
-    font-size: 2.4rem;
-    padding-right: 20rem;
-    padding-left: 20rem;
-    justify-content: space-between;
-}
-
-h1 span{
-    display: flex;
+    padding-bottom: 3rem;
     align-items: center;
-    gap: 2rem;
+    justify-content: space-evenly;
 }
 
-h1 span a{
+h1{
+    font-size: 2.4rem;
+}
+
+.header-links{
+    display: flex;
+    gap: 5rem;
+}
+
+.header-links a{
     font-size: 1.8rem;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -38,11 +41,30 @@ p {
     font-size: 1.8rem;
 }
 
+#first-part{
+    background-color: var(--dark-green);
+    padding: 1rem 20rem 5rem; /*top, right-left, bottom*/
+}
+
 .big-title{
     font-size: 4.8rem;
     font-weight: bold;
 }
 
+.image-and-text{
+    display: flex;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    gap: 5rem;
+    align-items: center;
+}
+
+#main-img{
+    max-height: calc(214px + 1rem);
+    border-radius: 0.7rem;
+}
+
 .title-description-container{
     display: flex;
+    flex-direction: column;
 }
