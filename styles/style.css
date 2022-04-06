@@ -74,3 +74,34 @@ section{
     display: flex;
     flex-direction: column;
 }
+
+#information{
+    padding: 1rem 0rem;
+}
+
+#main-box-text{
+    font-size: 3.6rem;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.information-images{
+    padding: 1rem 0rem;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.box-image{
+    background-color: var(--dark-blue);
+    width: 17rem;
+    height: 17rem;
+    border-radius: 0.7rem;
+}
+
+.box-text{
+    font-size: 1.6rem;
+    color: black;
+    width: 17rem;
+}
