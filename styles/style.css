@@ -16,6 +16,11 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+.header-container{
+    padding: 1rem 32rem 5rem;
+    background-color: var(--dark-green);
+}
+
 header{
     display: flex;
     align-items: center;
@@ -46,6 +51,8 @@ p {
 }
 
 #first-part{
+    display: flex;
+    justify-content: center;
     background-color: var(--dark-green);
     padding: 1rem 40rem 5rem; /*top, right-left, bottom*/
 }
